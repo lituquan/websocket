@@ -6,7 +6,9 @@
   
 3.协议头ws 和wss
   服务端监听即可：一个地址监听,多个事件在消息区分即可。多地址会存在一个客户多连接。
-
+  
+  使用netty或者golang实现,tomcat支持websocket但是连接有限,而且不稳定。
+  
 4.压测
   wrk
   jmeter
