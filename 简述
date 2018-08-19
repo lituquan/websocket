@@ -1,0 +1,13 @@
+1.websocket和http
+  兼容http,websocket的握手协议是http,差异在于upgrade参数,并且在握手过程有加密验证处理。
+  
+2.四个事件
+  连接open,关闭close,收消息message,异常error
+  
+3.协议头ws 和wss
+  服务端监听即可：一个地址监听,多个事件在消息区分即可。多地址会存在一个客户多连接。
+
+4.压测
+  wrk
+  jmeter
+  
